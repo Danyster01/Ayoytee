@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>من ♥ إلى آية</title>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Cairo:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- فراشات -->
+  <div class="butterfly"></div>
+  <div class="butterfly"></div>
+  <div class="butterfly"></div>
+  <div class="butterfly"></div>
+  <div class="butterfly"></div>
+
+  <!-- موسيقى -->
+  <audio autoplay loop volume="0.1">
+    <source src="https://cdn.pixabay.com/audio/2022/03/23/audio_7d320be50f.mp3" type="audio/mp3">
+  </audio>
+
+  <!-- الرسالة -->
+  <div class="container" id="app">
+    <h2>❤ من قلب بيحبك يا آية ❤</h2>
+    <div id="form">
+      <input type="text" id="name" placeholder="اكتبي اسمك يا أميرتي" />
+      <input type="password" id="pass" placeholder="كلمة سر ي حب 💕" />
+      <button onclick="check()">ادخلي لعالمي 💌</button>
+      <p id="msg"></p>
+    </div>
+    <div id="message" style="display:none;">
+      <p>🌹 <span class="heart">♥</span> يا آية، يا نُور أيامي،<br/>
+        وجودك جنّة، وضحكتك حياة،<br/>
+        مفيش في الدنيا كلام يكفي أوفّيكي قدرك.<br/><br/>
+        بحبك بقلبي كله 💖، وهفضل أحبك العمر كله.<br/>
+        إنتِ النعمة اللي بدعي تفضل دايمًا في حياتي 💫<br/><br/>
+        <span class="heart">♥ بحبك ي ايويتي يجميلة🥹✨ ♥</span>
+      </p>
+    </div>
+  </div>
+
+  <!-- <script>
+    function check() {
+      let name = document.getElementById("name").value.trim();
+      let pass = document.getElementById("pass").value.trim();
+      if(name === "Princess Aya" && pass === "1532006") {
+        document.getElementById("form").style.display = "none";
+        document.getElementById("message").style.display = "block";
+      } else {
+        document.getElementById("msg").innerText = "البيانات مش صح.. جربي تاني يا ملاكي 💔";
+      }
+    }
+  </script> -->
+  <script src="js/script.js"></script>
+</body>
+</html>
